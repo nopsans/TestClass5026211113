@@ -1,18 +1,18 @@
-Public class TestClass5026211113 {
+public class TestClass5026211113 {
 
 	public static void main(String[] args) {
 		ComputeMethods5026211113 cm = new ComputeMethods5026211113();
 		
-		//Celcius
-		double celcius = cm.fToc(100);
-		System.out.println("100 F = "+ celcius +" C");
+		//celcius
+		double celcius = cm.fToc(86);
+		System.out.println("86 F = "+ celcius +" C");
 
 		//hypotenuse
-		double hypotennuse = cm.hypotenuse (5,12);
-		System.out.println("Hypotenuse = "+ hypotunes);
+		double hypotenuse = cm.hypotenuse (6,10);
+		System.out.println("Hypotenuse = " + hypotenuse);
 
 		//rolldice
 		int rolldice = cm.roll();
-		System.out.println("Roll 2 Dice result = "+ rolldice);
+		System.out.println("Roll 2 Dice result = " + rolldice);
 	}
 }
